@@ -1,0 +1,23 @@
+#Variables: %command% , %player%
+Prefix: "&8[&6Simple BuildMode&8] &7"
+
+# If this is enabled, you will be notified when a new version is released.
+Check for Updates: true
+
+Messages:
+    # This message comes up when you have 'Check for Updates' on. 
+    Notify on Join: "&7This Plugin has an &2Update &7look at this page >&6 %link%"
+    
+    # Messages for Commands
+    MustPlayer: "You must a Player."
+    WrongCommand: "&cWrong &7Command. Please use &8/%command%"
+    NoPermission: "You have &cno &7right to do that!"
+    BuildMode Join: "You are &2now &7in Build mode"
+    BuildMode Leave: "You are &cno longer &7in build mode."
+    BuildMode Other Join: "You have put %player% &2into &7build mode."
+    BuildMode Other Leave: "You have set %player% &cout of &7build mode."
+
+Permissions:
+    Admin: "system.admin"
+    Build: "system.build"
+    Build Other: "system.build.other"
