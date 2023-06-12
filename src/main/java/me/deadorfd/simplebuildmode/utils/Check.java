@@ -15,7 +15,7 @@ import me.deadorfd.simplebuildmode.SimpleBuildMode;
  * @Time 17:07:29
  */
 public class Check {
-	private static int resourceID = 00000;
+	private static int resourceID = 110436;
 	private static boolean updated = false;
 
 	public static void check() {
